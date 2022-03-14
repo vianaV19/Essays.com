@@ -1,0 +1,74 @@
+
+body{
+    overflow-x: hidden;
+}
+
+header .navbar-brand span {
+    font-size: 1.2em;
+}
+
+header nav .navbar-nav .nav-link {
+    color: #424242;
+}
+
+header nav {
+    border-bottom: 2px solid black;
+}
+
+.dropdown .btn {
+    background-color: transparent;
+    color: #424242;
+}
+
+ .dropdown-menu a{
+    color: #424242;    
+}
+
+textarea {
+    resize: none;
+    font-size: 1.5em;
+    text-indent: 30px;
+    border: 0.5px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    padding: 20px;
+    color: #495057;
+}
+
+.noeffect:focus, .noeffect:active {
+    box-shadow: none;
+    outline: none !important;
+}
+
+.form-control[type='text'] {
+    border: none;
+    border-bottom: 0.5px solid rgb(200, 200, 200) !important;
+    font-size: 2em;
+}
+
+
+.form-control:focus-visible {
+    border: none;
+}
+
+#home{
+    background: url(../img/essay_typing.png) no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    /* text-shadow: 1px 0px black,  -1px 0px black,  0px 1px black,  -1px 0px black; */
+}
+
+
+.jumbotron {
+    background-color: rgba(233, 236, 239, 0.5);
+}
+
+.display-1 {
+    color: black;
+}
+
+h3{
+    color: black;
+}
